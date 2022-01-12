@@ -1,0 +1,23 @@
+declarewar = {
+	condition = { potential = { always = no } }
+	effect = {
+		if = {
+			limit = {
+				ROOT = { ai = no }
+			}
+			hidden_effect = { wardec_modifier_effect = yes }
+		}
+	}
+}
+
+threaten_war = {
+	condition = {
+		tooltip = Never
+		potential = {
+			always = yes
+		}
+		allow = {
+			always = no
+		}
+	}
+}

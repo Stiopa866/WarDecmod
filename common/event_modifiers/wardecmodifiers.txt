@@ -1,0 +1,900 @@
+ai_boost_1 = {
+	discipline = 0.005
+	all_power_cost = -0.01
+	defensiveness = 0.005
+	global_tax_modifier = 0.01
+	production_efficiency = 0.01
+	trade_efficiency = 0.01
+}
+
+ai_boost_2 = {
+	discipline = 0.01
+	all_power_cost = -0.02
+	defensiveness = 0.01
+	global_tax_modifier = 0.02
+	production_efficiency = 0.02
+	trade_efficiency = 0.02
+}
+
+ai_boost_3 = {
+	discipline = 0.015
+	all_power_cost = -0.03
+	defensiveness = 0.015
+	global_tax_modifier = 0.03
+	production_efficiency = 0.03
+	trade_efficiency = 0.03
+}
+
+ai_boost_4 = {
+	discipline = 0.02
+	all_power_cost = -0.04
+	defensiveness = 0.02
+	global_tax_modifier = 0.04
+	production_efficiency = 0.04
+	trade_efficiency = 0.04
+}
+
+ai_boost_5 = {
+	discipline = 0.025
+	all_power_cost = -0.05
+	defensiveness = 0.025
+	global_tax_modifier = 0.05
+	production_efficiency = 0.05
+	trade_efficiency = 0.05
+}
+
+ai_boost_6 = {
+	discipline = 0.03
+	all_power_cost = -0.06
+	defensiveness = 0.03
+	global_tax_modifier = 0.06
+	production_efficiency = 0.06
+	trade_efficiency = 0.06
+}
+
+ai_boost_7 = {
+	discipline = 0.035
+	all_power_cost = -0.07
+	defensiveness = 0.035
+	global_tax_modifier = 0.07
+	production_efficiency = 0.07
+	trade_efficiency = 0.07
+}
+
+ai_boost_8 = {
+	discipline = 0.04
+	all_power_cost = -0.08
+	defensiveness = 0.04
+	global_tax_modifier = 0.08
+	production_efficiency = 0.08
+	trade_efficiency = 0.08
+}
+
+ai_boost_9 = {
+	discipline = 0.045
+	all_power_cost = -0.09
+	defensiveness = 0.045
+	global_tax_modifier = 0.09
+	production_efficiency = 0.09
+	trade_efficiency = 0.09
+}
+
+ai_boost_10 = {
+	discipline = 0.05
+	all_power_cost = -0.1
+	defensiveness = 0.05
+	global_tax_modifier = 0.1
+	production_efficiency = 0.1
+	trade_efficiency = 0.1
+}
+
+ai_boost_11 = {
+	discipline = 0.055
+	all_power_cost = -0.11
+	defensiveness = 0.055
+	global_tax_modifier = 0.11
+	production_efficiency = 0.11
+	trade_efficiency = 0.11
+}
+
+ai_boost_12 = {
+	discipline = 0.06
+	all_power_cost = -0.12
+	defensiveness = 0.06
+	global_tax_modifier = 0.12
+	production_efficiency = 0.12
+	trade_efficiency = 0.12
+}
+
+ai_boost_13 = {
+	discipline = 0.065
+	all_power_cost = -0.13
+	defensiveness = 0.065
+	global_tax_modifier = 0.13
+	production_efficiency = 0.13
+	trade_efficiency = 0.13
+}
+
+ai_boost_14 = {
+	discipline = 0.07
+	all_power_cost = -0.14
+	defensiveness = 0.07
+	global_tax_modifier = 0.14
+	production_efficiency = 0.14
+	trade_efficiency = 0.14
+}
+
+ai_boost_15 = {
+	discipline = 0.075
+	all_power_cost = -0.15
+	defensiveness = 0.075
+	global_tax_modifier = 0.15
+	production_efficiency = 0.15
+	trade_efficiency = 0.15
+}
+
+ai_boost_16 = {
+	discipline = 0.08
+	all_power_cost = -0.16
+	defensiveness = 0.08
+	global_tax_modifier = 0.16
+	production_efficiency = 0.16
+	trade_efficiency = 0.16
+}
+
+ai_boost_17 = {
+	discipline = 0.085
+	all_power_cost = -0.17
+	defensiveness = 0.085
+	global_tax_modifier = 0.17
+	production_efficiency = 0.17
+	trade_efficiency = 0.17
+}
+
+ai_boost_18 = {
+	discipline = 0.09
+	all_power_cost = -0.18
+	defensiveness = 0.09
+	global_tax_modifier = 0.18
+	production_efficiency = 0.18
+	trade_efficiency = 0.18
+}
+
+ai_boost_19 = {
+	discipline = 0.095
+	all_power_cost = -0.19
+	defensiveness = 0.095
+	global_tax_modifier = 0.19
+	production_efficiency = 0.19
+	trade_efficiency = 0.19
+}
+
+ai_boost_20 = {
+	discipline = 0.1
+	all_power_cost = -0.2
+	defensiveness = 0.1
+	global_tax_modifier = 0.2
+	production_efficiency = 0.2
+	trade_efficiency = 0.2
+}
+
+ai_boost_21 = {
+	discipline = 0.105
+	all_power_cost = -0.21
+	defensiveness = 0.105
+	global_tax_modifier = 0.21
+	production_efficiency = 0.21
+	trade_efficiency = 0.21
+}
+
+ai_boost_22 = {
+	discipline = 0.11
+	all_power_cost = -0.22
+	defensiveness = 0.11
+	global_tax_modifier = 0.22
+	production_efficiency = 0.22
+	trade_efficiency = 0.22
+}
+
+ai_boost_23 = {
+	discipline = 0.115
+	all_power_cost = -0.23
+	defensiveness = 0.115
+	global_tax_modifier = 0.23
+	production_efficiency = 0.23
+	trade_efficiency = 0.23
+}
+
+ai_boost_24 = {
+	discipline = 0.12
+	all_power_cost = -0.24
+	defensiveness = 0.12
+	global_tax_modifier = 0.24
+	production_efficiency = 0.24
+	trade_efficiency = 0.24
+}
+
+ai_boost_25 = {
+	discipline = 0.125
+	all_power_cost = -0.25
+	defensiveness = 0.125
+	global_tax_modifier = 0.25
+	production_efficiency = 0.25
+	trade_efficiency = 0.25
+}
+
+ai_boost_26 = {
+	discipline = 0.13
+	all_power_cost = -0.26
+	defensiveness = 0.13
+	global_tax_modifier = 0.26
+	production_efficiency = 0.26
+	trade_efficiency = 0.26
+}
+
+ai_boost_27 = {
+	discipline = 0.135
+	all_power_cost = -0.27
+	defensiveness = 0.135
+	global_tax_modifier = 0.27
+	production_efficiency = 0.27
+	trade_efficiency = 0.27
+}
+
+ai_boost_28 = {
+	discipline = 0.14
+	all_power_cost = -0.28
+	defensiveness = 0.14
+	global_tax_modifier = 0.28
+	production_efficiency = 0.28
+	trade_efficiency = 0.28
+}
+
+ai_boost_29 = {
+	discipline = 0.145
+	all_power_cost = -0.29
+	defensiveness = 0.145
+	global_tax_modifier = 0.29
+	production_efficiency = 0.29
+	trade_efficiency = 0.29
+}
+
+ai_boost_30 = {
+	discipline = 0.15
+	all_power_cost = -0.3
+	defensiveness = 0.15
+	global_tax_modifier = 0.3
+	production_efficiency = 0.3
+	trade_efficiency = 0.3
+}
+
+ai_boost_31 = {
+	discipline = 0.155
+	all_power_cost = -0.31
+	defensiveness = 0.155
+	global_tax_modifier = 0.31
+	production_efficiency = 0.31
+	trade_efficiency = 0.31
+}
+
+ai_boost_32 = {
+	discipline = 0.16
+	all_power_cost = -0.32
+	defensiveness = 0.16
+	global_tax_modifier = 0.32
+	production_efficiency = 0.32
+	trade_efficiency = 0.32
+}
+
+ai_boost_33 = {
+	discipline = 0.165
+	all_power_cost = -0.33
+	defensiveness = 0.165
+	global_tax_modifier = 0.33
+	production_efficiency = 0.33
+	trade_efficiency = 0.33
+}
+
+ai_boost_34 = {
+	discipline = 0.17
+	all_power_cost = -0.34
+	defensiveness = 0.17
+	global_tax_modifier = 0.34
+	production_efficiency = 0.34
+	trade_efficiency = 0.34
+}
+
+ai_boost_35 = {
+	discipline = 0.175
+	all_power_cost = -0.35
+	defensiveness = 0.175
+	global_tax_modifier = 0.35
+	production_efficiency = 0.35
+	trade_efficiency = 0.35
+}
+
+ai_boost_36 = {
+	discipline = 0.18
+	all_power_cost = -0.36
+	defensiveness = 0.18
+	global_tax_modifier = 0.36
+	production_efficiency = 0.36
+	trade_efficiency = 0.36
+}
+
+ai_boost_37 = {
+	discipline = 0.185
+	all_power_cost = -0.37
+	defensiveness = 0.185
+	global_tax_modifier = 0.37
+	production_efficiency = 0.37
+	trade_efficiency = 0.37
+}
+
+ai_boost_38 = {
+	discipline = 0.19
+	all_power_cost = -0.38
+	defensiveness = 0.19
+	global_tax_modifier = 0.38
+	production_efficiency = 0.38
+	trade_efficiency = 0.38
+}
+
+ai_boost_39 = {
+	discipline = 0.195
+	all_power_cost = -0.39
+	defensiveness = 0.195
+	global_tax_modifier = 0.39
+	production_efficiency = 0.39
+	trade_efficiency = 0.39
+}
+
+ai_boost_40 = {
+	discipline = 0.2
+	all_power_cost = -0.4
+	defensiveness = 0.2
+	global_tax_modifier = 0.4
+	production_efficiency = 0.4
+	trade_efficiency = 0.4
+}
+
+ai_boost_41 = {
+	discipline = 0.205
+	all_power_cost = -0.41
+	defensiveness = 0.205
+	global_tax_modifier = 0.41
+	production_efficiency = 0.41
+	trade_efficiency = 0.41
+}
+
+ai_boost_42 = {
+	discipline = 0.21
+	all_power_cost = -0.42
+	defensiveness = 0.21
+	global_tax_modifier = 0.42
+	production_efficiency = 0.42
+	trade_efficiency = 0.42
+}
+
+ai_boost_43 = {
+	discipline = 0.215
+	all_power_cost = -0.43
+	defensiveness = 0.215
+	global_tax_modifier = 0.43
+	production_efficiency = 0.43
+	trade_efficiency = 0.43
+}
+
+ai_boost_44 = {
+	discipline = 0.22
+	all_power_cost = -0.44
+	defensiveness = 0.22
+	global_tax_modifier = 0.44
+	production_efficiency = 0.44
+	trade_efficiency = 0.44
+}
+
+ai_boost_45 = {
+	discipline = 0.225
+	all_power_cost = -0.45
+	defensiveness = 0.225
+	global_tax_modifier = 0.45
+	production_efficiency = 0.45
+	trade_efficiency = 0.45
+}
+
+ai_boost_46 = {
+	discipline = 0.23
+	all_power_cost = -0.46
+	defensiveness = 0.23
+	global_tax_modifier = 0.46
+	production_efficiency = 0.46
+	trade_efficiency = 0.46
+}
+
+ai_boost_47 = {
+	discipline = 0.235
+	all_power_cost = -0.47
+	defensiveness = 0.235
+	global_tax_modifier = 0.47
+	production_efficiency = 0.47
+	trade_efficiency = 0.47
+}
+
+ai_boost_48 = {
+	discipline = 0.24
+	all_power_cost = -0.48
+	defensiveness = 0.24
+	global_tax_modifier = 0.48
+	production_efficiency = 0.48
+	trade_efficiency = 0.48
+}
+
+ai_boost_49 = {
+	discipline = 0.245
+	all_power_cost = -0.49
+	defensiveness = 0.245
+	global_tax_modifier = 0.49
+	production_efficiency = 0.49
+	trade_efficiency = 0.49
+}
+
+ai_boost_50 = {
+	discipline = 0.25
+	all_power_cost = -0.5
+	defensiveness = 0.25
+	global_tax_modifier = 0.5
+	production_efficiency = 0.5
+	trade_efficiency = 0.5
+}
+
+ai_boost_51 = {
+	discipline = 0.255
+	all_power_cost = -0.51
+	defensiveness = 0.255
+	global_tax_modifier = 0.51
+	production_efficiency = 0.51
+	trade_efficiency = 0.51
+}
+
+ai_boost_52 = {
+	discipline = 0.26
+	all_power_cost = -0.52
+	defensiveness = 0.26
+	global_tax_modifier = 0.52
+	production_efficiency = 0.52
+	trade_efficiency = 0.52
+}
+
+ai_boost_53 = {
+	discipline = 0.265
+	all_power_cost = -0.53
+	defensiveness = 0.265
+	global_tax_modifier = 0.53
+	production_efficiency = 0.53
+	trade_efficiency = 0.53
+}
+
+ai_boost_54 = {
+	discipline = 0.27
+	all_power_cost = -0.54
+	defensiveness = 0.27
+	global_tax_modifier = 0.54
+	production_efficiency = 0.54
+	trade_efficiency = 0.54
+}
+
+ai_boost_55 = {
+	discipline = 0.275
+	all_power_cost = -0.55
+	defensiveness = 0.275
+	global_tax_modifier = 0.55
+	production_efficiency = 0.55
+	trade_efficiency = 0.55
+}
+
+ai_boost_56 = {
+	discipline = 0.28
+	all_power_cost = -0.56
+	defensiveness = 0.28
+	global_tax_modifier = 0.56
+	production_efficiency = 0.56
+	trade_efficiency = 0.56
+}
+
+ai_boost_57 = {
+	discipline = 0.285
+	all_power_cost = -0.57
+	defensiveness = 0.285
+	global_tax_modifier = 0.57
+	production_efficiency = 0.57
+	trade_efficiency = 0.57
+}
+
+ai_boost_58 = {
+	discipline = 0.29
+	all_power_cost = -0.58
+	defensiveness = 0.29
+	global_tax_modifier = 0.58
+	production_efficiency = 0.58
+	trade_efficiency = 0.58
+}
+
+ai_boost_59 = {
+	discipline = 0.295
+	all_power_cost = -0.59
+	defensiveness = 0.295
+	global_tax_modifier = 0.59
+	production_efficiency = 0.59
+	trade_efficiency = 0.59
+}
+
+ai_boost_60 = {
+	discipline = 0.3
+	all_power_cost = -0.6
+	defensiveness = 0.3
+	global_tax_modifier = 0.6
+	production_efficiency = 0.6
+	trade_efficiency = 0.6
+}
+
+ai_boost_61 = {
+	discipline = 0.305
+	all_power_cost = -0.61
+	defensiveness = 0.305
+	global_tax_modifier = 0.61
+	production_efficiency = 0.61
+	trade_efficiency = 0.61
+}
+
+ai_boost_62 = {
+	discipline = 0.31
+	all_power_cost = -0.62
+	defensiveness = 0.31
+	global_tax_modifier = 0.62
+	production_efficiency = 0.62
+	trade_efficiency = 0.62
+}
+
+ai_boost_63 = {
+	discipline = 0.315
+	all_power_cost = -0.63
+	defensiveness = 0.315
+	global_tax_modifier = 0.63
+	production_efficiency = 0.63
+	trade_efficiency = 0.63
+}
+
+ai_boost_64 = {
+	discipline = 0.32
+	all_power_cost = -0.64
+	defensiveness = 0.32
+	global_tax_modifier = 0.64
+	production_efficiency = 0.64
+	trade_efficiency = 0.64
+}
+
+ai_boost_65 = {
+	discipline = 0.325
+	all_power_cost = -0.65
+	defensiveness = 0.325
+	global_tax_modifier = 0.65
+	production_efficiency = 0.65
+	trade_efficiency = 0.65
+}
+
+ai_boost_66 = {
+	discipline = 0.33
+	all_power_cost = -0.66
+	defensiveness = 0.33
+	global_tax_modifier = 0.66
+	production_efficiency = 0.66
+	trade_efficiency = 0.66
+}
+
+ai_boost_67 = {
+	discipline = 0.335
+	all_power_cost = -0.67
+	defensiveness = 0.335
+	global_tax_modifier = 0.67
+	production_efficiency = 0.67
+	trade_efficiency = 0.67
+}
+
+ai_boost_68 = {
+	discipline = 0.34
+	all_power_cost = -0.68
+	defensiveness = 0.34
+	global_tax_modifier = 0.68
+	production_efficiency = 0.68
+	trade_efficiency = 0.68
+}
+
+ai_boost_69 = {
+	discipline = 0.345
+	all_power_cost = -0.69
+	defensiveness = 0.345
+	global_tax_modifier = 0.69
+	production_efficiency = 0.69
+	trade_efficiency = 0.69
+}
+
+ai_boost_70 = {
+	discipline = 0.35
+	all_power_cost = -0.7
+	defensiveness = 0.35
+	global_tax_modifier = 0.7
+	production_efficiency = 0.7
+	trade_efficiency = 0.7
+}
+
+ai_boost_71 = {
+	discipline = 0.355
+	all_power_cost = -0.71
+	defensiveness = 0.355
+	global_tax_modifier = 0.71
+	production_efficiency = 0.71
+	trade_efficiency = 0.71
+}
+
+ai_boost_72 = {
+	discipline = 0.36
+	all_power_cost = -0.72
+	defensiveness = 0.36
+	global_tax_modifier = 0.72
+	production_efficiency = 0.72
+	trade_efficiency = 0.72
+}
+
+ai_boost_73 = {
+	discipline = 0.365
+	all_power_cost = -0.73
+	defensiveness = 0.365
+	global_tax_modifier = 0.73
+	production_efficiency = 0.73
+	trade_efficiency = 0.73
+}
+
+ai_boost_74 = {
+	discipline = 0.37
+	all_power_cost = -0.74
+	defensiveness = 0.37
+	global_tax_modifier = 0.74
+	production_efficiency = 0.74
+	trade_efficiency = 0.74
+}
+
+ai_boost_75 = {
+	discipline = 0.375
+	all_power_cost = -0.75
+	defensiveness = 0.375
+	global_tax_modifier = 0.75
+	production_efficiency = 0.75
+	trade_efficiency = 0.75
+}
+
+ai_boost_76 = {
+	discipline = 0.38
+	all_power_cost = -0.76
+	defensiveness = 0.38
+	global_tax_modifier = 0.76
+	production_efficiency = 0.76
+	trade_efficiency = 0.76
+}
+
+ai_boost_77 = {
+	discipline = 0.385
+	all_power_cost = -0.77
+	defensiveness = 0.385
+	global_tax_modifier = 0.77
+	production_efficiency = 0.77
+	trade_efficiency = 0.77
+}
+
+ai_boost_78 = {
+	discipline = 0.39
+	all_power_cost = -0.78
+	defensiveness = 0.39
+	global_tax_modifier = 0.78
+	production_efficiency = 0.78
+	trade_efficiency = 0.78
+}
+
+ai_boost_79 = {
+	discipline = 0.395
+	all_power_cost = -0.79
+	defensiveness = 0.395
+	global_tax_modifier = 0.79
+	production_efficiency = 0.79
+	trade_efficiency = 0.79
+}
+
+ai_boost_80 = {
+	discipline = 0.4
+	all_power_cost = -0.8
+	defensiveness = 0.4
+	global_tax_modifier = 0.8
+	production_efficiency = 0.8
+	trade_efficiency = 0.8
+}
+
+ai_boost_81 = {
+	discipline = 0.405
+	all_power_cost = -0.81
+	defensiveness = 0.405
+	global_tax_modifier = 0.81
+	production_efficiency = 0.81
+	trade_efficiency = 0.81
+}
+
+ai_boost_82 = {
+	discipline = 0.41
+	all_power_cost = -0.82
+	defensiveness = 0.41
+	global_tax_modifier = 0.82
+	production_efficiency = 0.82
+	trade_efficiency = 0.82
+}
+
+ai_boost_83 = {
+	discipline = 0.415
+	all_power_cost = -0.83
+	defensiveness = 0.415
+	global_tax_modifier = 0.83
+	production_efficiency = 0.83
+	trade_efficiency = 0.83
+}
+
+ai_boost_84 = {
+	discipline = 0.42
+	all_power_cost = -0.84
+	defensiveness = 0.42
+	global_tax_modifier = 0.84
+	production_efficiency = 0.84
+	trade_efficiency = 0.84
+}
+
+ai_boost_85 = {
+	discipline = 0.425
+	all_power_cost = -0.85
+	defensiveness = 0.425
+	global_tax_modifier = 0.85
+	production_efficiency = 0.85
+	trade_efficiency = 0.85
+}
+
+ai_boost_86 = {
+	discipline = 0.43
+	all_power_cost = -0.86
+	defensiveness = 0.43
+	global_tax_modifier = 0.86
+	production_efficiency = 0.86
+	trade_efficiency = 0.86
+}
+
+ai_boost_87 = {
+	discipline = 0.435
+	all_power_cost = -0.87
+	defensiveness = 0.435
+	global_tax_modifier = 0.87
+	production_efficiency = 0.87
+	trade_efficiency = 0.87
+}
+
+ai_boost_88 = {
+	discipline = 0.44
+	all_power_cost = -0.88
+	defensiveness = 0.44
+	global_tax_modifier = 0.88
+	production_efficiency = 0.88
+	trade_efficiency = 0.88
+}
+
+ai_boost_89 = {
+	discipline = 0.445
+	all_power_cost = -0.89
+	defensiveness = 0.445
+	global_tax_modifier = 0.89
+	production_efficiency = 0.89
+	trade_efficiency = 0.89
+}
+
+ai_boost_90 = {
+	discipline = 0.45
+	all_power_cost = -0.9
+	defensiveness = 0.45
+	global_tax_modifier = 0.9
+	production_efficiency = 0.9
+	trade_efficiency = 0.9
+}
+
+ai_boost_91 = {
+	discipline = 0.455
+	all_power_cost = -0.91
+	defensiveness = 0.455
+	global_tax_modifier = 0.91
+	production_efficiency = 0.91
+	trade_efficiency = 0.91
+}
+
+ai_boost_92 = {
+	discipline = 0.46
+	all_power_cost = -0.92
+	defensiveness = 0.46
+	global_tax_modifier = 0.92
+	production_efficiency = 0.92
+	trade_efficiency = 0.92
+}
+
+ai_boost_93 = {
+	discipline = 0.465
+	all_power_cost = -0.93
+	defensiveness = 0.465
+	global_tax_modifier = 0.93
+	production_efficiency = 0.93
+	trade_efficiency = 0.93
+}
+
+ai_boost_94 = {
+	discipline = 0.47
+	all_power_cost = -0.94
+	defensiveness = 0.47
+	global_tax_modifier = 0.94
+	production_efficiency = 0.94
+	trade_efficiency = 0.94
+}
+
+ai_boost_95 = {
+	discipline = 0.475
+	all_power_cost = -0.95
+	defensiveness = 0.475
+	global_tax_modifier = 0.95
+	production_efficiency = 0.95
+	trade_efficiency = 0.95
+}
+
+ai_boost_96 = {
+	discipline = 0.48
+	all_power_cost = -0.96
+	defensiveness = 0.48
+	global_tax_modifier = 0.96
+	production_efficiency = 0.96
+	trade_efficiency = 0.96
+}
+
+ai_boost_97 = {
+	discipline = 0.485
+	all_power_cost = -0.97
+	defensiveness = 0.485
+	global_tax_modifier = 0.97
+	production_efficiency = 0.97
+	trade_efficiency = 0.97
+}
+
+ai_boost_98 = {
+	discipline = 0.49
+	all_power_cost = -0.98
+	defensiveness = 0.49
+	global_tax_modifier = 0.98
+	production_efficiency = 0.98
+	trade_efficiency = 0.98
+}
+
+ai_boost_99 = {
+	discipline = 0.495
+	all_power_cost = -0.99
+	defensiveness = 0.495
+	global_tax_modifier = 0.99
+	production_efficiency = 0.99
+	trade_efficiency = 0.99
+}
+
+ai_boost_100 = {
+	discipline = 0.5
+	all_power_cost = -1.0
+	defensiveness = 0.5
+	global_tax_modifier = 1.0
+	production_efficiency = 1.0
+	trade_efficiency = 1.0
+}
+
