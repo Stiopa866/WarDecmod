@@ -1,3 +1,12 @@
+wardec_control_effect = {
+	if = {
+		limit = { has_global_flag = war_dec_insanity }
+		insane_wardec_modifier_effect = yes
+	} else = {
+		wardec_modifier_effect = yes
+	}
+}
+
 wardec_modifier_effect = {
 	REB = {
 		change_variable = {
@@ -1009,6 +1018,1017 @@ wardec_modifier_effect = {
 	}
 }
 
+insane_wardec_modifier_effect = {
+	REB = {
+		change_variable = {
+			which = num_of_wars_decced
+			value = 1
+		}
+	}
+	if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 1 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_1 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 2 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_2 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 3 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_3 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 4 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_4 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 5 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_5 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 6 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_6 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 7 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_7 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 8 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_8 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 9 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_9 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 10 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_10 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 11 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_11 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 12 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_12 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 13 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_13 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 14 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_14 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 15 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_15 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 16 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_16 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 17 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_17 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 18 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_18 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 19 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_19 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 20 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_20 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 21 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_21 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 22 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_22 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 23 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_23 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 24 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_24 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 25 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_25 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 26 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_26 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 27 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_27 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 28 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_28 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 29 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_29 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 30 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_30 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 31 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_31 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 32 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_32 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 33 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_33 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 34 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_34 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 35 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_35 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 36 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_36 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 37 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_37 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 38 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_38 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 39 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_39 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 40 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_40 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 41 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_41 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 42 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_42 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 43 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_43 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 44 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_44 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 45 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_45 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 46 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_46 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 47 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_47 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 48 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_48 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 49 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_49 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 50 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_50 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 51 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_51 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 52 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_52 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 53 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_53 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 54 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_54 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 55 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_55 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 56 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_56 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 57 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_57 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 58 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_58 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 59 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_59 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 60 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_60 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 61 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_61 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 62 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_62 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 63 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_63 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 64 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_64 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 65 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_65 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 66 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_66 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 67 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_67 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 68 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_68 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 69 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_69 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 70 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_70 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 71 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_71 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 72 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_72 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 73 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_73 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 74 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_74 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 75 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_75 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 76 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_76 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 77 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_77 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 78 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_78 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 79 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_79 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 80 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_80 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 81 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_81 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 82 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_82 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 83 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_83 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 84 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_84 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 85 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_85 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 86 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_86 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 87 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_87 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 88 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_88 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 89 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_89 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 90 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_90 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 91 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_91 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 92 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_92 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 93 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_93 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 94 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_94 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 95 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_95 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 96 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_96 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 97 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_97 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 98 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_98 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 99 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_99 duration = -1 }
+		}
+	}
+	else_if = {
+		limit = {
+			REB = { is_variable_equal = { which = num_of_wars_decced value = 100 } }
+		}
+		every_country = {
+			limit = { ai = yes }
+			remove_wardec_current_modifier = yes 
+			add_country_modifier = { name = insane_ai_boost_100 duration = -1 }
+		}
+	}
+	else = {
+	}
+}
+
 remove_wardec_current_modifier = {
 	remove_country_modifier = ai_boost_1
 	remove_country_modifier = ai_boost_2
@@ -1110,4 +2130,104 @@ remove_wardec_current_modifier = {
 	remove_country_modifier = ai_boost_98
 	remove_country_modifier = ai_boost_99
 	remove_country_modifier = ai_boost_100
+	remove_country_modifier = insane_ai_boost_1
+	remove_country_modifier = insane_ai_boost_2
+	remove_country_modifier = insane_ai_boost_3
+	remove_country_modifier = insane_ai_boost_4
+	remove_country_modifier = insane_ai_boost_5
+	remove_country_modifier = insane_ai_boost_6
+	remove_country_modifier = insane_ai_boost_7
+	remove_country_modifier = insane_ai_boost_8
+	remove_country_modifier = insane_ai_boost_9
+	remove_country_modifier = insane_ai_boost_10
+	remove_country_modifier = insane_ai_boost_11
+	remove_country_modifier = insane_ai_boost_12
+	remove_country_modifier = insane_ai_boost_13
+	remove_country_modifier = insane_ai_boost_14
+	remove_country_modifier = insane_ai_boost_15
+	remove_country_modifier = insane_ai_boost_16
+	remove_country_modifier = insane_ai_boost_17
+	remove_country_modifier = insane_ai_boost_18
+	remove_country_modifier = insane_ai_boost_19
+	remove_country_modifier = insane_ai_boost_20
+	remove_country_modifier = insane_ai_boost_21
+	remove_country_modifier = insane_ai_boost_22
+	remove_country_modifier = insane_ai_boost_23
+	remove_country_modifier = insane_ai_boost_24
+	remove_country_modifier = insane_ai_boost_25
+	remove_country_modifier = insane_ai_boost_26
+	remove_country_modifier = insane_ai_boost_27
+	remove_country_modifier = insane_ai_boost_28
+	remove_country_modifier = insane_ai_boost_29
+	remove_country_modifier = insane_ai_boost_30
+	remove_country_modifier = insane_ai_boost_31
+	remove_country_modifier = insane_ai_boost_32
+	remove_country_modifier = insane_ai_boost_33
+	remove_country_modifier = insane_ai_boost_34
+	remove_country_modifier = insane_ai_boost_35
+	remove_country_modifier = insane_ai_boost_36
+	remove_country_modifier = insane_ai_boost_37
+	remove_country_modifier = insane_ai_boost_38
+	remove_country_modifier = insane_ai_boost_39
+	remove_country_modifier = insane_ai_boost_40
+	remove_country_modifier = insane_ai_boost_41
+	remove_country_modifier = insane_ai_boost_42
+	remove_country_modifier = insane_ai_boost_43
+	remove_country_modifier = insane_ai_boost_44
+	remove_country_modifier = insane_ai_boost_45
+	remove_country_modifier = insane_ai_boost_46
+	remove_country_modifier = insane_ai_boost_47
+	remove_country_modifier = insane_ai_boost_48
+	remove_country_modifier = insane_ai_boost_49
+	remove_country_modifier = insane_ai_boost_50
+	remove_country_modifier = insane_ai_boost_51
+	remove_country_modifier = insane_ai_boost_52
+	remove_country_modifier = insane_ai_boost_53
+	remove_country_modifier = insane_ai_boost_54
+	remove_country_modifier = insane_ai_boost_55
+	remove_country_modifier = insane_ai_boost_56
+	remove_country_modifier = insane_ai_boost_57
+	remove_country_modifier = insane_ai_boost_58
+	remove_country_modifier = insane_ai_boost_59
+	remove_country_modifier = insane_ai_boost_60
+	remove_country_modifier = insane_ai_boost_61
+	remove_country_modifier = insane_ai_boost_62
+	remove_country_modifier = insane_ai_boost_63
+	remove_country_modifier = insane_ai_boost_64
+	remove_country_modifier = insane_ai_boost_65
+	remove_country_modifier = insane_ai_boost_66
+	remove_country_modifier = insane_ai_boost_67
+	remove_country_modifier = insane_ai_boost_68
+	remove_country_modifier = insane_ai_boost_69
+	remove_country_modifier = insane_ai_boost_70
+	remove_country_modifier = insane_ai_boost_71
+	remove_country_modifier = insane_ai_boost_72
+	remove_country_modifier = insane_ai_boost_73
+	remove_country_modifier = insane_ai_boost_74
+	remove_country_modifier = insane_ai_boost_75
+	remove_country_modifier = insane_ai_boost_76
+	remove_country_modifier = insane_ai_boost_77
+	remove_country_modifier = insane_ai_boost_78
+	remove_country_modifier = insane_ai_boost_79
+	remove_country_modifier = insane_ai_boost_80
+	remove_country_modifier = insane_ai_boost_81
+	remove_country_modifier = insane_ai_boost_82
+	remove_country_modifier = insane_ai_boost_83
+	remove_country_modifier = insane_ai_boost_84
+	remove_country_modifier = insane_ai_boost_85
+	remove_country_modifier = insane_ai_boost_86
+	remove_country_modifier = insane_ai_boost_87
+	remove_country_modifier = insane_ai_boost_88
+	remove_country_modifier = insane_ai_boost_89
+	remove_country_modifier = insane_ai_boost_90
+	remove_country_modifier = insane_ai_boost_91
+	remove_country_modifier = insane_ai_boost_92
+	remove_country_modifier = insane_ai_boost_93
+	remove_country_modifier = insane_ai_boost_94
+	remove_country_modifier = insane_ai_boost_95
+	remove_country_modifier = insane_ai_boost_96
+	remove_country_modifier = insane_ai_boost_97
+	remove_country_modifier = insane_ai_boost_98
+	remove_country_modifier = insane_ai_boost_99
+	remove_country_modifier = insane_ai_boost_100
 }

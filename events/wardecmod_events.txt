@@ -1,0 +1,23 @@
+namespace = wardecmod_events
+country_event = {
+	id = wardecmod_events.1
+	title = wardecmod_events.1.t
+	desc = wardecmod_events.1.d
+	PICTURE = VILLAGE_BURNING_eventPicture
+	fire_only_once = yes
+	trigger = {
+		always = yes
+	}
+	is_triggered_only = yes
+	option = {
+		name = "wardecmod_events.1.a"
+		custom_tooltip = wardecmod_events.1.a.ctt
+	}
+	option = {
+		name = "wardecmod_events.1.b"
+		custom_tooltip = wardecmod_events.1.b.ctt
+		hidden_effect = {
+			set_global_flag = war_dec_insanity
+		}
+	}
+}

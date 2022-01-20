@@ -5,7 +5,8 @@ declarewar = {
 			limit = {
 				ROOT = { ai = no }
 			}
-			hidden_effect = { wardec_modifier_effect = yes }
+			hidden_effect = { wardec_control_effect = yes }
+			custom_tooltip = wardec_bruh_moment
 		}
 	}
 }
