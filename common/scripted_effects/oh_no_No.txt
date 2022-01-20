@@ -1019,6 +1019,10 @@ wardec_modifier_effect = {
 }
 
 insane_wardec_modifier_effect = {
+	every_country = {
+		limit = { ai = yes }
+		insane_wardec_temp_effect = yes
+	}
 	REB = {
 		change_variable = {
 			which = num_of_wars_decced
@@ -2230,4 +2234,61 @@ remove_wardec_current_modifier = {
 	remove_country_modifier = insane_ai_boost_98
 	remove_country_modifier = insane_ai_boost_99
 	remove_country_modifier = insane_ai_boost_100
+}
+
+insane_wardec_temp_effect = {
+	random_list = {
+		1 = { add_adm_power = 50 }
+		1 = { add_dip_power = 50 }
+		1 = { add_mil_power = 50 }
+	}
+	add_years_of_income = 1
+	add_absolutism = 2
+	add_legitimacy = 10
+	add_republican_tradition = 5
+	add_devotion = 10
+	add_horde_unity = 20
+	add_meritocracy = 10
+	add_revolutionary_zeal = 10
+	add_tribal_allegiance = 10
+	add_militarised_society = 10
+	add_authority = 10
+	add_doom = -10
+	add_fervor = 10
+	add_church_power = 10
+	add_patriarch_authority = 10
+	add_harmony = 10
+	add_harmonization_progress = 5
+	add_prestige = 5
+	add_corruption = -1
+	add_splendor = 20
+	add_war_exhaustion = -3
+	add_army_tradition = 5
+	add_navy_tradition = 5
+	add_army_professionalism = 0.005
+	add_yearly_manpower = 1
+	add_yearly_sailors = 1
+	random_list = {
+		3 = {
+			create_general = { tradition = 60 }
+		}
+		3 = {
+			create_admiral = { tradition = 60 }
+		}
+		1 = {
+			create_conquistador = { tradition = 60 }
+		}
+		1 = {
+			create_explorer = { tradition = 60 }
+		}
+	}
+	random_list = {
+		2 = { add_stability = 1 }
+		1 = { change_adm = 1 }
+		1 = { change_dip = 1 }
+		1 = { change_mil = 1 }
+		1 = { change_heir_adm = 1 }
+		1 = { change_heir_dip = 1 }
+		1 = { change_heir_mil = 1 }
+	}
 }
